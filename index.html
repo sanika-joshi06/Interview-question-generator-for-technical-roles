@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech Interview Question Generator</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Interview Question Generator</h2>
+    <form id="questionForm">
+      <input type="text" id="role" placeholder="Enter Technical Role (e.g., Backend Developer)" required><br>
+      <select id="level">
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
+      </select><br>
+      <button type="submit">Generate Questions</button>
+    </form>
+
+    <div id="output">
+      <h3>Generated Questions</h3>
+      <pre id="questionsText"></pre>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
